@@ -1,0 +1,189 @@
+@media screen and (min-width : 768px){
+    .header {
+        height: 70px;
+    }
+    .headerin {
+        height: 70px;
+    }
+    .header .logo {
+        width: 195px;
+        height: auto;
+    }
+
+    .header .open_menu {
+        width: 30px;
+        margin-right: 18px;
+    }
+    .band_bn_mo {
+        display: none;
+    }
+    .band_bn_pc {
+        display: block;
+    }
+    .section1,
+    .section2,
+    .section3,
+    .section4 {
+        height: 250px;
+    }
+    .text_group {
+        padding : 0;
+        width: 40%;
+
+    }
+    .left {
+        top : 50%;
+        left: 30%;
+        transform: translate(-60%,-50%);
+        text-align: left;
+    }
+    .right {
+        top : 50%;
+        right : 50%;
+        transform: translate(10%,-50%);
+        text-align: left;
+    }
+    h2, .black {
+        font-size: 15px;
+        margin-bottom: 4%;
+    }
+    .text, .text2 {
+        font-size: 13px;
+        margin-bottom: 5%;
+    }
+    .btn_detail a, .btn_detail2 a {
+        padding : 5px 10px;
+        font-size: 13px;
+    }
+}
+@media screen and (min-width : 1200px){
+    .header {
+        height: 100px;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 15px;
+    }
+    .headerin {
+        width : 1224px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    .header .logo  {
+        width: 234px;
+        height: auto;
+        margin : 0;
+    }
+    .header .logo .logo_mo {
+        display: none;
+    }
+    .header .logo .logo_pc {
+        display: block;
+    }
+    .open_menu {
+        display: none;
+    }
+    .header .pc_gnb {
+        display: block;
+        position: absolute;
+        bottom: 15px;
+        right: 20px;
+    }
+    .header .pc_gnb ul {
+        display: flex;
+    }
+    .header .pc_gnb ul li {
+        margin-left: 60px;
+    }
+    .header .pc_gnb ul li a {
+        color : #333;
+        font-weight: 700;
+        font-size: 17px;
+    }
+    .header .pc_utill {
+        display: block;
+        position: absolute;
+        top : 10px;
+        right: 20px;
+    }
+    .header .pc_utill ul {
+        display : flex;
+    }
+    .header .pc_utill ul li {
+        margin-left: 30px;
+    }
+    .header .pc_utill ul li a {
+        color : #555;
+        font-size: 13px;
+    }
+    .header .pc_utill ul li a:hover {
+        color : #222;
+    }
+    .guideline {
+        display: block;
+        margin-bottom: 10px;
+        height: 40px;
+    }
+    .guideline .guideline_in {
+        width: 1224px;
+        height: 40px;
+        margin : 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .guideline .guideline_in .guideT {
+        color : #111;
+        font-size: 24px;
+        font-weight: 500;
+        margin-left: 20px;
+        
+    }
+    .guideline .guideline_in .guideR {
+        margin-right: 20px;
+        align-self: flex-end;
+        color : #666;
+    }
+    .section1,
+    .section2,
+    .section3,
+    .section4 {
+        height: 430px;
+    }
+    .container_in {
+        width: 1224px;
+        margin : 0 auto;
+        position: relative;
+        height: 100%;
+    }
+
+    .text_group {
+        padding : 0;
+        width: 40%;
+
+    }
+    .left {
+        top : 50%;
+        left: 0%;
+        transform: translate(0%,-50%);
+        text-align: left;
+    }
+    .right {
+        top : 50%;
+        right : 0%;
+        transform: translate(20%,-50%);
+        text-align: left;
+    }
+    h2, .black {
+        font-size: 30px;
+        margin-bottom: 4%;
+    }
+    .text, .text2 {
+        font-size: 17px;
+        margin-bottom: 5%;
+    }
+    .btn_detail a, .btn_detail2 a {
+        padding : 5px 10px;
+        font-size: 13px;
+    }
+}
