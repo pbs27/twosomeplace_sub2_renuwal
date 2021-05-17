@@ -313,9 +313,6 @@ h2 {
     background-image: url(../img/arr_u03.png);
     color : #ca113a;
 }
-.s_gnb .d1 .sub {
-    /*display: none;*/
-}
 .s_gnb .d1 .sub ul {
     border-top: 1px solid #ddd;
     padding : 10px 15px;
