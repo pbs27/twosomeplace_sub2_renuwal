@@ -38,3 +38,14 @@ $('.s_gnb .d1 .m1').click(function () {
     }
     return false;
 });
+$('.pc_gnb').mouseover(function () {
+    $(this).stop().animate({
+        height: 300
+    });
+    $('.subBg').stop().slideDown();
+}).mouseout(function () {
+    $(this).stop().animate({
+        height: 50
+    });
+    $('.subBg').stop().slideUp();
+});

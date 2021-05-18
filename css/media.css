@@ -56,18 +56,20 @@
         font-size: 12px;
     }
 }
-@media screen and (min-width : 1200px){
+@media screen and (min-width : 1260px){
     .header {
-        height: 100px;
+        height: 90px;
         border-bottom: 1px solid #ddd;
         margin-bottom: 15px;
+        z-index : 500;
     }
     .headerin {
         width : 1224px;
-        height: 100px;
+        height: 90px;
         margin-left: auto;
         margin-right: auto;
         position: relative;
+        z-index : 110;
     }
     .header .logo  {
         width: 234px;
@@ -83,22 +85,55 @@
     .open_menu {
         display: none;
     }
-    .header .pc_gnb {
+.header .pc_gnb {
         display: block;
         position: absolute;
-        bottom: 15px;
-        right: 20px;
+        top : 38px;
+        right: 0;
+        overflow : hidden;
     }
-    .header .pc_gnb ul {
+    .header .pc_gnb>ul {
         display: flex;
     }
-    .header .pc_gnb ul li {
-        margin-left: 60px;
+    .header .pc_gnb .d1 {
+        position: relative;
     }
-    .header .pc_gnb ul li a {
+    .header .pc_gnb .d1 .m1 {
+        display: block;
+        padding : 15px 40px;
         color : #333;
         font-weight: 700;
         font-size: 17px;
+    }
+    .header .pc_gnb .d1 .m1:after {
+        display:block;
+        content: '';
+        padding-top: 4px;
+        border-bottom: solid 3px #121212;  
+        transform: scaleX(0);  
+        transition: transform 250ms ease-in-out;
+    }
+    .header .pc_gnb .d1:hover .m1:after{
+        transform: scaleX(1)
+    }
+    .header .pc_gnb .sub {
+        position: absolute;
+        top : 40px;
+        left : 0;
+        width: 100%;
+    }
+    .header .pc_gnb .d1 .sub ul {
+        padding-top : 20px;
+        padding-left: 40px;
+    }
+    .header .pc_gnb .sub a {
+        display: block;
+        padding : 6px 0;
+        font-size: 15px;
+        color : #555;
+    }
+    .header .pc_gnb .sub a:hover {
+        color : #ca113a;
     }
     .header .pc_utill {
         display: block;
